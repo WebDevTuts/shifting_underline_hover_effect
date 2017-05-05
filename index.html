@@ -35,6 +35,12 @@
 
       this.parentNode.classList.add("active");
       this.style.opacity = "1";
+
+      const width = this.getBoundingClientRect().width;
+      const height = this.getBoundingClientRect().height;
+      const left = this.getBoundingClientRect().left;
+      const top = this.getBoundingClientRect().top;
+      const color = colors[Math.floor(Math.random() * colors.length)];
     }
 
     for (let i = 0; i < links.length; i++) {
