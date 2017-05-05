@@ -2,4 +2,6 @@
 
 In today’s tutorial, we’re going to use a little bit of CSS and JavaScript to create a fancy menu hover effect.
 
+[View demo site here.](https://webdevtuts.github.io/shifting_underline_hover_effect/)
+
 ![Preview](screenshot.png)
