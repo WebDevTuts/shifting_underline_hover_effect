@@ -23,6 +23,11 @@
     const target = document.querySelector(".target");
     const links = document.querySelectorAll(".mynav a");
     const colors = ["deepbluesky", "orange", "firebrick", "gold", "magenta", "black", "darkblue"];
+
+    for (let i = 0; i < links.length; i++) {
+      links[i].addEventListener("click", (e) => e.preventDefault());
+      links[i].addEventListener("mouseenter", mouseenterFunc);
+    }
   </script>
 </body>
 </html>
